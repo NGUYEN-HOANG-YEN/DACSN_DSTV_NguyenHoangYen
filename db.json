@@ -1,0 +1,100 @@
+{
+  "products": [
+    {
+      "name": "Rượi Xuân Thạnh",
+      "image": "https://th.bing.com/th/id/OIP.mEyBl4CQLKAVy6XvbCy5KQHaHa?w=181&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      "quantity": "20",
+      "price": "12000000",
+      "discount": "2000000",
+      "rate": 5,
+      "desc": "Rượu XUÂN THẠNH BA LIÊU là loại rượu đặc sản Trà Vinh gồm Rượu Lão Tửu Xuân Thạnh, Rượu Nếp Than Xuân Thạnh, Rượu Chuối Hột Xuân Thạnh, Rượu Mít Xuân Thạnh, Rượu Quách Xuân Thạnh.",
+      "id": 1
+    },
+    {
+      "name": "Củ cải muối Chịt Sa",
+      "image": "http://travinhtrade.vn/DesktopModules/SGD_TRAVINH/Images/sanpham/hinh%205_2021113164639_202212192945.jpg",
+      "quantity": "20",
+      "price": "12000000",
+      "discount": "2000000",
+      "rate": 5,
+      "desc": "Cơ sở sản xuất củ cải muối Chịt Sa",
+      "id": 1
+    },
+    {
+      "name": "Trái Quách",
+      "image": "https://th.bing.com/th/id/OIP.7oOqte5Z7lPZDlPYIHDQjAHaEi?w=296&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      "quantity": "20",
+      "price": "15000000",
+      "discount": "3000000",
+      "rate": 4,
+      "desc": "Quả quách là cái tên khá xa lạ với nhiều người dân miền Bắc nhưng lại được coi là đặc sản rất nổi ở các tỉnh miền Tây. Ngoài hương vị đặc trưng, ​​loại quả này còn được dùng làm thuốc nhuận tràng, tiêu viêm và có nhiều tác dụng có lợi cho sức khỏe.",
+      "id": 2
+    },
+    {
+      "name": "Bánh Tét ",
+      "image": "https://th.bing.com/th/id/OIP.Iuo4hjHxk6rJbhc9VYKjTwHaE8?w=297&h=198&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      "quantity": "20",
+      "price": "50000000",
+      "discount": "3000000",
+      "rate": 5,
+      "desc": "Bánh Tét Trà Vinh , hương vị thơm non mời bạn ăn nha",
+      "id": 3
+    },
+    {
+      "name": "Mắm Rươi",
+      "image": "https://th.bing.com/th/id/OIP._1K9tqXIwt1FEm-kO2XK7gHaHa?w=174&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      "quantity": "20",
+      "price": "10000000",
+      "discount": "2000000",
+      "rate": 4,
+      "desc": "Mắm Rươi trà viinh",
+      "id": 4
+    },
+    {
+      "name": "Dừa Sáp ",
+      "image": "https://th.bing.com/th/id/OIP.2Momr6hpwWv1r7eUpWzuaQHaE8?w=304&h=203&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      "quantity": "20",
+      "price": "17000000",
+      "discount": "2000000",
+      "rate": 4,
+      "desc": "Dừa Sáp Trà Vinh......",
+      "id": 5
+    },
+    {
+      "name": "Chả Hoa Năm Thị",
+      "image": "https://th.bing.com/th/id/OIP.heGZ8Ix7DXSEwuMg1fqWBgHaEK?w=299&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      "quantity": "20",
+      "price": "11000000",
+      "discount": "2000000",
+      "rate": 3,
+      "desc": "Chả Hoa Năm Thị Trà Vinh ABCCCCCC",
+      "id": 6
+    },
+    {
+      "name": "Bánh ú đa lộc",
+      "image": "https://vnn-imgs-f.vgcloud.vn/2019/06/06/08/tet-doan-ngo-cung-nhau-hoc-lam-mon-banh-u-dai-ca-nha-1.jpg",
+      "quantity": "20",
+      "price": "1000000",
+      "discount": "2000000",
+      "rate": 5,
+      "desc": "Bánh Ú Đa Lộc Trà Vinh",
+      "id": 7
+    }
+  ],
+  "users": [
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$klzwygzhaUhjIrcmXN72TOqIlk8lNzAhhtfFnwKpg/fSPUnYyI4X2",
+      "role": "admin",
+      "id": 4
+    },
+    {
+      "email": "user@gmail.com",
+      "password": "$2a$10$1wxSB6qvPDk4.lWI7EPRo.aDAfBkxt28wFOG5.FhSIzoOsC6jhTD6",
+      "confirmPassword": "123456",
+      "role": "client",
+      "id": 5
+    }
+  ],
+  "cart": []
+}
