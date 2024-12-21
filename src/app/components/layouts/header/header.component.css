@@ -1,6 +1,7 @@
 .bg-custom {
   background-color: #243444;
 }
+<<<<<<< HEAD
 .text-teal-600 {
   color: #20c997;
 }
@@ -10,6 +11,21 @@
 .hover-bg-teal-700:hover {
   background-color: #198754;
 }
+=======
+
+.text-teal-600 {
+  color: #20c997;
+}
+
+.bg-teal-600 {
+  background-color: #20c997;
+}
+
+.hover-bg-teal-700:hover {
+  background-color: #198754;
+}
+
+>>>>>>> 1397b9f (Initial commit)
 .hover-text-teal-600:hover {
   color: #198754;
 }
@@ -43,9 +59,83 @@
   box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
   background-color: rgba(104, 85, 224, 1);
 }
+<<<<<<< HEAD
 .cursor-pointer {
   cursor: pointer;
 }
 .cursor-pointer:hover {
   color: #ccc;
 }
+=======
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.cursor-pointer:hover {
+  color: #ccc;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+}
+
+.dropend .dropdown-toggle {
+  color: salmon;
+  margin-left: 1em;
+}
+
+.dropdown-item:hover {
+  background-color: lightsalmon;
+  color: #fff;
+}
+
+.dropend:hover>.dropdown-menu {
+  position: absolute;
+  top: 0;
+  left: 100%;
+}
+
+@media screen and (min-width:992px) {
+  .dropend .dropdown-toggle {
+    margin-left: .5em;
+  }
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+}
+
+.dropend .dropdown-toggle {
+  color: black;
+  margin-left: 1em;
+}
+
+.dropdown-item:hover {
+  background-color: lightsalmon;
+  color: #fff;
+}
+
+.dropdown .dropdown-menu {
+  display: none;
+}
+
+.dropdown:hover>.dropdown-menu,
+.dropend:hover>.dropdown-menu {
+  display: block;
+  margin-top: .125em;
+  margin-left: .125em;
+}
+
+@media screen and (min-width:992px) {
+  .dropend:hover>.dropdown-menu {
+    position: absolute;
+    top: 0;
+    left: 100%;
+  }
+
+  .dropend .dropdown-toggle {
+    margin-left: .5em;
+  }
+}
+>>>>>>> 1397b9f (Initial commit)

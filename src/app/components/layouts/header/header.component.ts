@@ -11,6 +11,10 @@ import { IUser } from '../../../interfaces/Auth';
 import { UserService } from '../../../service/auth.service';
 import { CartService } from '../../../service/cart.service';
 import { CookieService } from 'ngx-cookie-service';
+<<<<<<< HEAD
+=======
+import { DropdownData } from '../../../utils/dacsan-huyenxa-item';
+>>>>>>> 1397b9f (Initial commit)
 
 @Component({
   selector: 'app-header',
@@ -27,6 +31,10 @@ import { CookieService } from 'ngx-cookie-service';
 })
 export class HeaderComponent implements OnInit {
   [x: string]: any;
+<<<<<<< HEAD
+=======
+  DropdownData: any = DropdownData
+>>>>>>> 1397b9f (Initial commit)
   isLogin: boolean = false;
   userInfo: any = {} as any;
   searchForm = new FormGroup({
@@ -38,7 +46,11 @@ export class HeaderComponent implements OnInit {
     private router: Router,
     private userService: UserService,
     private cookieService: CookieService
+<<<<<<< HEAD
   ) {}
+=======
+  ) { }
+>>>>>>> 1397b9f (Initial commit)
   ngOnInit(): void {
     this.loadCartItems();
     this.cartService.getCartUpdated().subscribe(() => {

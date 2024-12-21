@@ -16,6 +16,12 @@ import { SearchComponent } from './pages/client/search/search.component';
 import { CartComponent } from './pages/client/cart/cart.component';
 import { AuthGuard } from './guards/auth.guard';
 import { AdminGuard } from './guards/admin.guard';
+<<<<<<< HEAD
+=======
+import { DacsanComponent } from './pages/client/dacsan/dacsan.component';
+import { AboutComponent } from './pages/client/about/about.component';
+import { DetailDacsanComponent } from './pages/client/detail-dacsan/detail-dacsan.component';
+>>>>>>> 1397b9f (Initial commit)
 
 
 export const routes: Routes = [
@@ -35,11 +41,32 @@ export const routes: Routes = [
         path: '',
         component: HomePageComponent,
       },
+<<<<<<< HEAD
+=======
+
+      {
+        path: 'dacsan',
+        component: DacsanComponent,
+      },
+
+      {
+        path: 'about',
+        component: AboutComponent,
+      },
+>>>>>>> 1397b9f (Initial commit)
       {
         path: 'detail/:id',
         component: DetailComponent,
       },
+<<<<<<< HEAD
 
+=======
+      {
+        path: 'dacsan/:id',
+        component: DetailDacsanComponent,
+      },
+      
+>>>>>>> 1397b9f (Initial commit)
       {
         path: 'search',
         component: SearchComponent,
@@ -81,7 +108,11 @@ export const routes: Routes = [
         path: 'edit_product/:id',
         component: ProductEditComponent,
       },
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> 1397b9f (Initial commit)
     ],
   },
 ];
